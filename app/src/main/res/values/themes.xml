@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Fitness" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange1</item>
+        <item name="colorPrimaryVariant">@color/yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange4</item>
+        <item name="colorSecondaryVariant">@color/orange3</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorSecondary</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.Main" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange1</item>
+        <item name="colorPrimaryVariant">@color/orange4</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange2</item>
+        <item name="colorSecondaryVariant">@color/orange3</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.Fitness.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="Theme.Fitness.Auth">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorOnPrimary">@color/transparent</item>
+    </style>
+
+    <style name="Theme.Fitness.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Fitness.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <color name="yellow">#FFEB3B</color>
+</resources>
